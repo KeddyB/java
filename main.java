@@ -1,6 +1,15 @@
 class Main {
-    static int age = 21;
+    static int age;
     public static void main(String[] args){
-        //this is supposed to be for weekends
+        
+        int score = 0;
+        int turns = 10;
+        for(int i = 0; i<=turns; i++){
+            if (turns == i) {
+                System.out.println("ÿour score " + score++);
+            } else {
+                System.out.println("your turn "+ turns--);
+            }
+        };
     }
-}
+ }
