@@ -22,4 +22,4 @@ class Main {
         //print doesnt have a new line character so the next line prints on the same line
         //printf help to print formatted strings %s for string %d for integer 
     }
- }
+}
